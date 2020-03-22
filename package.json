@@ -1,0 +1,37 @@
+{
+  "homepage": "http://banduraweb.github.io/test-react-flow-diagram",
+  "name": "react-flow-diagram-example",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-flow-diagram": "^2.13.0",
+    "react-scripts": "^3.4.1"
+  },
+  "devDependencies": {
+    "prettier": "1.10.2",
+    "gh-pages": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "prettier --single-quote --trailing-comma es5 --use-tabs false --write \"src/**/*.js\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
