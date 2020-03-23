@@ -6,8 +6,9 @@ import eventIcon from './event/icon';
 const config = {
   entityTypes: {
     Task: {
-      width: 125,
+      width: 150,
       height: 75,
+
     },
     Event: {
       width: 50,

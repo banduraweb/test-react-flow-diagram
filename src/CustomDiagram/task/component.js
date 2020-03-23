@@ -122,6 +122,7 @@ class TaskComponent extends React.PureComponent<
   };
 
   render() {
+    console.log(this.props,'props');
     return (
       <>
       <Task

@@ -17,7 +17,7 @@ class CustomDiagram extends React.PureComponent {
     diagramOn('anyChange', entityState =>
       // You can get the model back
       // after modifying the UI representation
-      console.info(entityState)
+      console.info(entityState,'entityState')
     );
   }
   render() {
